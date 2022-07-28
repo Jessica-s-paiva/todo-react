@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
-import Header from '../../Components/Header/Header';
-import S from './Home.module.css'
+import React, {useState, useEffect} from 'react';
+import S from './Home.module.css';
+import Cards from '../../Components/Cards/Cards';
 
 const Home = () => {
     const [state, setState] = useState([]);
@@ -19,7 +19,13 @@ const Home = () => {
 
   return (
     <div>
-        <h3>oi</h3>
+      <section className={S.sectionCards}>
+        {
+          !!state && state.map((user, index)=>{
+            return (<Cards usuario={user} key={index}/>)
+          })
+        }
+      </section>
     </div>
   )
 }

@@ -7,8 +7,11 @@ import Tasks from '../Pages/Tasks/Tasks';
 const Routes = () => {
     return(
         <BrowserRouter>
+        <Routes>
             <Route component = { Home }  path="/" /> 
             <Route component = { Tasks }  path="/tasks" />
+        </Routes>
+            
         </BrowserRouter>
     )
 }
