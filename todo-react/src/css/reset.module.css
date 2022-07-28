@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --Primary: #3b284c;
+    --Secondary: #85d4ff;
+    --Details: #78beff;
+    --One: #dedafd;
+    --Two: #56ddec;  
+}

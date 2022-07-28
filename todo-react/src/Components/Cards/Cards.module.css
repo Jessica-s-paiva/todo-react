@@ -1,0 +1,19 @@
+.container{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contentFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    border: 5px solid #fbe934;
+    /* background-image: url(https://www.tynker.com/projects/screenshot/57da4d8ba924051b458b4567/pokemon-battles-alpha.png);
+    background-size: cover; */
+    padding: 10px;
+  }
